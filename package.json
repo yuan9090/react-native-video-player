@@ -1,6 +1,6 @@
 {
-  "name": "react-native-video-player",
-  "version": "0.14.0",
+  "name": "@iftek/react-native-video-player",
+  "version": "0.14.1",
   "description": "A video player for React Native with controls",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,9 @@
     "ios",
     "android"
   ],
-  "author": "Corné Dorrestijn <contact@corne.info>",
+  "author": "yuan9090 <yuan9090@gmail.com>",
   "license": "ISC",
-  "repository": "cornedor/react-native-video-player",
+  "repository": "yuan9090/react-native-video-player",
   "peerDependencies": {
     "prop-types": "*",
     "react": "*",

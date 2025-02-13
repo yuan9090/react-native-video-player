@@ -1,29 +1,32 @@
 
 
-# What do you need from the video UI controls library? 
 
-As we approach the end of 2024, we've started working on the roadmap for this project. This means it's not dead—it was just waiting for the perfect moment! Please share your enthusiasm and feedback here: [https://github.com/TheWidlarzGroup/react-native-video-player/discussions/186](https://github.com/TheWidlarzGroup/react-native-video-player/discussions/186)
 
-# React Native Video Player [![npm][npm-image]][npm-url]
+# @iftek/React Native Video Player [![npm][npm-image]][npm-url]
 
-[npm-image]: https://img.shields.io/npm/v/react-native-video-player.svg
-[npm-url]: https://www.npmjs.com/package/react-native-video-player
+[npm-image]: https://img.shields.io/npm/v/@iftek/react-native-video-player.svg
+[npm-url]: https://www.npmjs.com/package/@iftek/react-native-video-player
+
+- Fork from [react-native-video-player 0.14.0](https://github.com/TheWidlarzGroup/react-native-video-player/tree/v0.14.0) 
+
+- Adjust: onHideControls, onShowControls timing
+- Adjust: peerDependencies react-native-video > 2
 
 A React Native video player with a few controls. This player uses
 react-native-video for the video playback.
 
 
-![demo gif](https://raw.githubusercontent.com/cornedor/react-native-video-player/master/demo.gif "Demo GIF")
+![demo gif](https://raw.githubusercontent.com/yuan9090/react-native-video-player/master/demo.gif "Demo GIF")
 
 ## Installation
 
 ```
-yarn add react-native-video-player react-native-video react-native-vector-icons
+yarn add @iftek/react-native-video-player react-native-video react-native-vector-icons
 ```
 
 or
 ```
-npm install --save react-native-video-player react-native-video react-native-vector-icons
+npm install --save @iftek/react-native-video-player react-native-video react-native-vector-icons
 ```
 
 Then, for React Native >= 0.60:
